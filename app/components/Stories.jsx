@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 
-
+//react components
 const Stories = () => {
   const [posts, setPosts] = useState([]);
 
@@ -14,7 +14,7 @@ const Stories = () => {
     }
     fetchPosts();
   }, [])
-  console.log(posts);
+  //console.log(posts);
 
   
   return (
